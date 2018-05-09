@@ -1,0 +1,31 @@
+@keyframes gelbounce {
+   0%  {transform: scale(.95, 1.15);}
+   25% {transform: scale(1.15, .95);}
+   50% {transform: scale(.95, 1.15);}
+   75% {transform: scale(1.15, .95);}
+   100% {transform: scale(.95, 1.15);}
+
+}
+
+.bounce {
+    width: 80%;
+    animation-name: gelbounce;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 100%;
+    padding: 10%;
+    position: relative;
+    top: -50px;
+}
+
+.bounce:hover {
+    width: 20%;
+    transform: scale(.95, 1.15);
+    transition: all 3s;
+
+}
+
+.navbar {
+    background: darkgrey;
+    height: 65px;
+}
